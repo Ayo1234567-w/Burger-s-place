@@ -1,0 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+body{
+    max-width: 1600px;
+    margin:auto;
+    font-family: "Red Hat Text", sans-serif;
+}
+.main-wrapper{
+    @apply bg-[url("")]
+  }
