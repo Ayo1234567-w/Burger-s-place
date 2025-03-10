@@ -1,5 +1,8 @@
 import React from 'react';
 import imageText from "../assets/image-text.svg"
+import FavouriteList from "../pages/FavouriteList"
+import BurgerList from './BurgerList';
+
 
 
 const Home = () => {
@@ -15,6 +18,8 @@ const Home = () => {
     <img src={imageText} alt="image-text" />
   </div>
 </div>
+<FavouriteList/>
+<BurgerList/>
 
     </main>
   );

@@ -7,7 +7,7 @@ const FavouriteList = () => {
             <div className="bg-[#2F2F2F] py-[20px] px-4 cursor-pointer">
                 <div className="bg-[#252422] rounded-[50px] container mx-auto max-w-[1070px] p-4 ">
                     <div className="flex sm:grid sm:grid-cols-3 md:grid-cols-6 gap-4 overflow-x-auto sm:overflow-visible scrollbar-hide px-2 ">
-                        <div className="flex flex-col items-center min-w-[100px] ">
+                        <div className="flex flex-col items-center min-w-[100px]">
                             <img src="https://res.cloudinary.com/dqqectes0/image/upload/v1741212150/burgerImg_o9gwok.svg" alt="burger" className="w-[80px] h-[80px] hover:bg-amber-50" />
                             <small className="text-white mt-2 cursor-pointer">Burger</small>
                         </div>
