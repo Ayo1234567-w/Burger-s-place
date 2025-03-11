@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import {
-  Burgers,
+  Burger,
   Combos,
   drinks,
   chickens,
   chips,
   salad,
   allProducts,
-} from "../product";
+} from "../";
 
 const Products = () => {
-  const [selectedCategorys, setSelectedCategory] = useState(Burgers);
+  const [selectedCategorys, setSelectedCategory] = useState(drinks);
 
   return (
     <>
@@ -18,7 +18,7 @@ const Products = () => {
       <section className=" md:hidden flex justify-between w-full rounded-[101px] bg-[#252422] p-6">
         <div className=" carousel carousel-center lg:w-full space-x-24 px-8">
           <a
-            onClick={() => setSelectedCategory(Burgers)}
+            onClick={() => setSelectedCategory(Burger)}
             href="#burger"
             className="carousel-item flex flex-col items-center text-[25px] text-[#aeaea7] hover:text-white opacity-70 hover:opacity-100"
           >
@@ -28,7 +28,17 @@ const Products = () => {
             />
             <p>Burger</p>
           </a>
-          
+          <a
+            onClick={() => setSelectedCategory(Combos)}
+            href="#combos"
+            className="carousel-item flex flex-col items-center text-[25px] text-[#aeaea7] hover:text-white opacity-70 hover:opacity-100"
+          >
+            <img
+              src="https://res.cloudinary.com/diww44oar/image/upload/v1741223929/combos_we0lfx.svg"
+              className="rounded-box w-[120px] h-[120px] object-contain"
+            />
+            <p>Combos</p>
+          </a>
           <a
             onClick={() => setSelectedCategory(drinks)}
             href="#drinks"
